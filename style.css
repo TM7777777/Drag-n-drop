@@ -4,10 +4,13 @@
 body {
   background-color: #e5e5e5;
   display: flex;
-  padding-top: 5rem;
   justify-content: center;
   overflow: hidden;
   margin: 0;
+}
+h1 {
+  display: flex;
+  justify-content: center;
 }
 .container {
   display: flex;
@@ -17,14 +20,15 @@ body {
 }
 
 div .bl {
+  color: rgb(63, 63, 63);
   width: 150px;
   box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
   border-radius: 30px;
   padding: 0.8rem 1rem;
-  color: #fff;
 }
 
 div .item {
+  text-align: center;
   width: 150px;
   height: 66px;
   border: 1px solid #eee;
@@ -33,7 +37,6 @@ div .item {
   background: #f7f6f7;
   padding: 0.8rem 1rem;
   color: #828282;
-  text-align: center;
   cursor: grab;
 }
 
@@ -47,11 +50,11 @@ div .item {
 }
 
 .start {
-  background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+  background: radial-gradient(green, skyblue);
 }
 
 .progress {
-  background: linear-gradient(90deg, #209cff 0%, #68e0cf 100%);
+  background: #7df172f5;
 }
 
 .done {
@@ -59,7 +62,7 @@ div .item {
 }
 
 div .hold {
-  border: 5px solid #eee;
+  border: 5px solid rgb(175, 174, 174);
 }
 
 div .hide {
@@ -67,5 +70,5 @@ div .hide {
 }
 
 div .hovered {
-  border-top: 2px solid #8ed7ed;
+  border-top: 4px solid #8ed7ed;
 }
